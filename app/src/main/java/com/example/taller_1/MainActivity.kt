@@ -48,10 +48,13 @@ class MainActivity : AppCompatActivity() {
         nombres.forEach { (println(it)) }
     }
     class autos{
-        var apellido: String = ""
-        var edad: Int = 0
+        var traccion: String = "manual"
+        var motor: Int = 2400
+        var tipo: String = "sedan"
+        var capacidad: String = "4 personas"
 
     }
+
 
 
 
